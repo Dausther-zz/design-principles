@@ -10,15 +10,15 @@ public class FlowContainerSolidBorder extends FlowContainer {
         elements = new ArrayList<Component>();
     }
 
-//    @Override
-//    public void addComponent(Component c) {
-//        elements.add(c);
-//    }
-//
-//    @Override
-//    public void removeComponent(Component c) {
-//       elements.remove(c);
-//    }
+    @Override
+    public void addComponent(Component c) {
+        elements.add(c);
+    }
+
+    @Override
+    public void removeComponent(Component c) {
+       elements.remove(c);
+    }
 
     @Override
     public void doLayout() {
