@@ -3,22 +3,22 @@ package com.designprinciples.lecture2.part3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FlowContainerDottedBorder extends Container {
+public class FlowContainerDottedBorder extends FlowContainer {
     private List<Component> elements;
 
     public FlowContainerDottedBorder() {
         elements = new ArrayList<Component>();
     }
 
-    @Override
-    public void addComponent(Component c) {
-        elements.add(c);
-    }
-
-    @Override
-    public void removeComponent(Component c) {
-        elements.remove(c);
-    }
+//    @Override
+//    public void addComponent(Component c) {
+//        elements.add(c);
+//    }
+//
+//    @Override
+//    public void removeComponent(Component c) {
+//        elements.remove(c);
+//    }
 
     @Override
     public void doLayout() {

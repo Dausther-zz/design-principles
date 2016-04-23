@@ -3,22 +3,22 @@ package com.designprinciples.lecture2.part3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FlowContainerSolidBorder extends Container {
+public class FlowContainerSolidBorder extends FlowContainer {
     private List<Component> elements;
 
     public FlowContainerSolidBorder() {
         elements = new ArrayList<Component>();
     }
 
-    @Override
-    public void addComponent(Component c) {
-        elements.add(c);
-    }
-
-    @Override
-    public void removeComponent(Component c) {
-       elements.remove(c);
-    }
+//    @Override
+//    public void addComponent(Component c) {
+//        elements.add(c);
+//    }
+//
+//    @Override
+//    public void removeComponent(Component c) {
+//       elements.remove(c);
+//    }
 
     @Override
     public void doLayout() {
